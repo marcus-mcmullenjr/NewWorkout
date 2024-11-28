@@ -16,14 +16,38 @@ public class Dummy {
 		skillList.add("Beast");
 		
 		List<String> wSplitList = new ArrayList<>();
-		wSplitList.add("Trainee");
-		wSplitList.add("Beginner");
-		wSplitList.add("Novice");
-		wSplitList.add("Intermediate");
-		wSplitList.add("Expert");
-		wSplitList.add("Specialist");
-		wSplitList.add("Beast");
+		wSplitList.add("FULS");
+		wSplitList.add("PPLS");
+		wSplitList.add("Arnold Split");
+		wSplitList.add("4-2-1 Split");
+		wSplitList.add("Three Day Split");
+		wSplitList.add("Custom");
 
+		List<String> bodyList = new ArrayList<>();
+		bodyList.add("Head");
+		bodyList.add("Chest");
+		bodyList.add("Arms");
+		bodyList.add("Back");
+		bodyList.add("Core");
+		bodyList.add("Legs");
+		
+		List<String> muscleGroupList = new ArrayList<>();
+		muscleGroupList.add("Traps");
+		muscleGroupList.add("Shoulders");
+		muscleGroupList.add("Pecs");
+		muscleGroupList.add("Biceps");
+		muscleGroupList.add("Triceps");
+		muscleGroupList.add("Abdominals");
+		muscleGroupList.add("Obliques");
+		muscleGroupList.add("Lats");
+		muscleGroupList.add("Erector Spine");
+		muscleGroupList.add("Glutes");
+		muscleGroupList.add("Hamstrings");
+		
+		for (String skill : skillList) {
+		    System.out.println(skill);
+		}
+		
 	}
 
 }
