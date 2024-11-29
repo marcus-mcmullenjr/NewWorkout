@@ -4,6 +4,7 @@ public class Exercise {
 	private String type;
     private String equipment;
     private String muscleGroup;
+    private String muscleFocus;
     private Boolean isCompound;
     private int duration; // in seconds
     private int repetitions;
