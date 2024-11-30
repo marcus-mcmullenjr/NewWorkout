@@ -8,6 +8,7 @@ public class ListRepository {
     private List<String> bodyList;
     private List<String> muscleGroupList;
     private List<String> trainingList;
+    private List<String> demoList;
     
     
 	// Constructor to initialize the list
@@ -17,6 +18,7 @@ public class ListRepository {
         bodyList = new ArrayList<>();
         muscleGroupList = new ArrayList<>();
         trainingList = new ArrayList<>();
+        demoList = new ArrayList<>();
     }
     
     // Getter method to access the list
@@ -96,5 +98,11 @@ public class ListRepository {
     	trainingList.add("Aerobic");
     	trainingList.add("Sport");
     	trainingList.add("Agility");
+    }
+    
+    public void demoList() {
+    	demoList.add("Push Ups");
+    	demoList.add("Bench Press");
+    	demoList.add("Leg Press");
     }
 }

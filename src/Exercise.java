@@ -22,4 +22,30 @@ public class Exercise {
     public void Compound() {
     	
     }
+    
+    // Getters and setters
+    public String getName() {
+    	return name;
+    }
+    
+    public int getDuration() {
+    	return duration;
+    }
+    
+    public int sets() {
+    	return sets;
+    }
+    
+    public int repetitions() {
+    	return repetitions;
+    }
+    
+    // Display workout details
+    public void displayExercise() {
+    	System.out.println( sets + " X " + repetitions + " " + name);
+    }
+    
+    public void displayDurationExercise() {
+    	System.out.println( duration + "s " + name);
+    }
 }
