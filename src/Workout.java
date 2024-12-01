@@ -3,6 +3,7 @@ import java.util.List;
 
 public class Workout {
 	private String workoutName;
+	private String skillLevel;
     private List<Exercise> exercises;
     private String type; // e.g., "Strength", "HIIT", "Yoga"
     
