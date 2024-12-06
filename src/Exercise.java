@@ -40,6 +40,11 @@ public class Exercise {
     	return repetitions;
     }
     
+    public int getExercise(String skill) {
+    	// if (skill)
+    	return repetitions;
+    }
+    
     // Display workout details
     public void displayExercise() {
     	System.out.println( sets + " X " + repetitions + " " + name);
